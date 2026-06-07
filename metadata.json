@@ -1,0 +1,10 @@
+{
+  "name": "Aazim Aaif | Product Designer Portfolio",
+  "description": "A premium, typography-driven portfolio for a Product Designer, featuring smooth motion and minimal aesthetic.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ],
+  "majorCapabilities": []
+}
