@@ -14,8 +14,8 @@ export default function Experience() {
       <div className="max-w-[1480px] mx-auto">
         <div className="space-y-12">
           <div className="flex items-center justify-between border-b border-brand-black/10 pb-4">
-            <span className="text-[10px] lowercase font-semibold tracking-[0.3em] opacity-40">experience</span>
-            <span className="text-[10px] lowercase font-semibold tracking-[0.3em] opacity-40">period</span>
+            <span className="text-sm lowercase font-semibold tracking-[0.25em] opacity-50">experience</span>
+            <span className="text-sm lowercase font-semibold tracking-[0.25em] opacity-50">period</span>
           </div>
 
           {experiences.map((exp, index) => (
@@ -29,10 +29,10 @@ export default function Experience() {
             >
               <div className="flex justify-between items-center py-6">
                 <div>
-                  <h4 className="text-xl md:text-2xl font-medium tracking-tight group-hover:pl-4 transition-all duration-500">
+                  <h4 className="text-2xl md:text-3xl font-medium tracking-tight group-hover:pl-4 transition-all duration-500">
                     {exp.company}
                   </h4>
-                  <p className="text-sm opacity-40 group-hover:pl-4 transition-all duration-500">{exp.role}</p>
+                  <p className="text-base opacity-50 group-hover:pl-4 transition-all duration-500">{exp.role}</p>
                 </div>
                 <span className="text-sm font-normal opacity-60 italic">{exp.year}</span>
               </div>

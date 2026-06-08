@@ -25,7 +25,7 @@ const featuredProject: Project = {
   metadata: ['9 Academic Programs', '4 Months'],
   highlightedMetadata: 'End-to-End Ownership',
   color: '#0E0E0E',
-  image: 'https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2670&auto=format&fit=crop',
+  image: '/assets/iimu/iimu-hero-card.png',
   link: '/works/iim-udaipur-admissions'
 };
 
@@ -41,7 +41,7 @@ const selectedProjects: Project[] = [
     ],
     metadata: ['Adaptive Role-Based Forms', 'Guided Workflows', '5000+ Player Registrations'],
     color: '#0A0A0A',
-    image: 'https://images.unsplash.com/photo-1531415074968-036ba1b575da?q=80&w=2670&auto=format&fit=crop',
+    image: '/assets/mca/mca-hero-card.png',
     link: '/works/mca-player-registration'
   },
   {
@@ -55,7 +55,7 @@ const selectedProjects: Project[] = [
     ],
     metadata: ['White-label Architecture', 'Execution Validation', 'Modular Frameworks'],
     color: '#151515',
-    image: 'https://images.unsplash.com/photo-1523240715181-310f9d1f05ad?q=80&w=2670&auto=format&fit=crop',
+    image: '/assets/alumni/alumni-hero-card.png',
     link: '/works/ken42-alumni-experience'
   }
 ];
@@ -64,15 +64,15 @@ function ProjectCard({ project }: { project: Project; key?: string }) {
   return (
     <div 
       style={{ backgroundColor: project.color }} 
-      className="w-full rounded-sm overflow-hidden flex flex-col lg:flex-row border border-white/5 group lg:min-h-[460px] transition-all duration-500 hover:border-brand-accent/20"
+          className="w-full rounded-sm overflow-hidden flex flex-col lg:flex-row group lg:min-h-[460px] transition-all duration-500"
     >
       {/* Visual Side - Rendered on TOP on mobile and tablet, RIGHT on desktop */}
       <div className="w-full lg:w-1/2 relative min-h-[300px] md:min-h-[400px] lg:min-h-full overflow-hidden order-first lg:order-last group/image">
         <img
           src={project.image}
           alt={`${project.title} Case Study Cover`}
-          className="absolute inset-0 w-full h-full object-cover scale-105 group-hover/image:scale-100 transition-transform duration-[1200ms] ease-out grayscale group-hover/image:grayscale-0 opacity-80 md:opacity-75 group-hover/image:opacity-100"
-          referrerPolicy="no-referrer"
+          className="absolute inset-0 w-full h-full object-cover scale-105 group-hover/image:scale-100 transition-transform duration-[1200ms] ease-out opacity-95 group-hover/image:opacity-100"
+        
         />
         <div className="absolute inset-0 bg-brand-black/25 group-hover/image:bg-brand-black/0 transition-colors duration-700" />
       </div>

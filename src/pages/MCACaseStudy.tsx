@@ -232,14 +232,12 @@ export default function MCACaseStudy() {
                 <ProjectImage
                 src="/assets/mca/mca-registration-1.png"
                 alt="Registration flow detail 1"
-                aspectRatio="portrait"
-                fit="cover"
+                className="h-[650px]"
                 />
                 <ProjectImage
                 src="/assets/mca/mca-registration-2.png"
                 alt="Registration flow detail 2"
-                aspectRatio="portrait"
-                fit="cover"
+                className="h-[650px]"
                 />
                 </div>
                 
@@ -256,12 +254,12 @@ export default function MCACaseStudy() {
                   <ProjectImage 
                     src="/assets/mca/mca-bowler.png" 
                     alt="Bowler specific dynamic eligibility forms" 
-                    aspectRatio="square"
+                    className="h-[650px]"
                   />
                   <ProjectImage 
                     src="/assets/mca/mca-batsman.png" 
                     alt="Batsman specific dynamic eligibility forms" 
-                    aspectRatio="square"
+                    className="h-[650px]"
                   />
                 </div>
               </div>
@@ -276,8 +274,8 @@ export default function MCACaseStudy() {
                 <ProjectImage 
                   src="/assets/mca/mca-valuation.png" 
                   alt="Success Screen (Player Registration Base Price Calculation)" 
-                  aspectRatio="video"
-                  fit="contain"
+                  className="h-[650px]"
+                  className="bg-transparent"
                 />
               </div>
             </section>
@@ -319,8 +317,8 @@ export default function MCACaseStudy() {
         </div>
 
         {/* 04 - Cross Device */}
-        <section id="cross-device" className="mt-40 space-y-16">
-          <div className="max-w-4xl space-y-8">
+        <section id="cross-device" className="mt-24 space-y-4">
+          <div className="max-w-4xl space-y-6">
             <span className="text-display text-4xl opacity-10 block">04 — cross-device experience</span>
             <h3 className="text-5xl font-display font-semibold tracking-tight">Fluid Continuity</h3>
             <p className="text-xl font-light leading-relaxed text-brand-black/70">
@@ -328,26 +326,26 @@ export default function MCACaseStudy() {
               On desktop, more breathing room improved readability, while cricket-inspired backgrounds created atmosphere.
             </p>
           </div>
-          <div className="space-y-6">
+          <div className="space-y-2">
             <ProjectImage
               src="/assets/mca/mca-responsive-1.png"
               alt="Responsive experience 1"
               aspectRatio="sixteen-nine"
-              fit="contain"
+              className="max-h-[500px]"
                 />
 
             <ProjectImage
             src="/assets/mca/mca-responsive-2.png"
             alt="Responsive experience 2"
             aspectRatio="sixteen-nine"
-            fit="contain"
+            className="max-h-[500px]"
             />
 
             <ProjectImage
             src="/assets/mca/mca-responsive-3.png"
             alt="Responsive experience 3"
             aspectRatio="sixteen-nine"
-            fit="contain"
+            className="max-h-[500px]"
             />
             </div>
         </section>

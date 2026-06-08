@@ -60,11 +60,17 @@ export default function Navbar() {
         <div className="max-w-[1480px] mx-auto w-full flex justify-between items-center">
           <div className="flex items-center gap-12">
             <Link 
-              to="/" 
+              to="/"
+              aria-label="Go to homepage"
               onClick={() => setIsMobileMenuOpen(false)}
-              className="font-display text-2xl font-semibold tracking-tighter hover:opacity-75 transition-opacity"
+              className="hover:opacity-75 transition-opacity"
             >
-              Aa.
+            
+            <img
+            src="/assets/logo.png"
+            alt="Aazim Aaif"
+            className="h-10 w-auto"
+            />
             </Link>
             <div className="hidden md:flex gap-8">
               {navLinks.map((link) => (

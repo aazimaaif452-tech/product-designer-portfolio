@@ -14,8 +14,7 @@ export default function About() {
             className="w-full lg:w-1/2 aspect-[4/5] rounded-sm overflow-hidden bg-brand-offwhite"
           >
             <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=2574&auto=format&fit=crop" 
-              alt="Aazim Aaif" 
+              src="/assets/aazim-photo.jpg"
               className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
             />
           </motion.div>
@@ -41,6 +40,9 @@ export default function About() {
             >
               <p>
                 I'm Aazim Aaif, a Product Designer focused on building systems, workflows, and digital experiences that bring together user needs, operational realities, and business objectives. I enjoy simplifying complex journeys and collaborating across teams to create products that are practical, scalable, and meaningful.
+                <br />
+                <br />
+                Outside of design, I enjoy traveling, meeting people, and learning from the stories and experiences they share.
               </p>
             </motion.div>
           </div>

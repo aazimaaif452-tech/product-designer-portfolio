@@ -18,7 +18,7 @@ export default function ProjectImage({ src, alt, aspectRatio = 'video', classNam
   }[aspectRatio] || 'aspect-[16/9]';
 
   return (
-    <div className={`relative overflow-hidden w-full rounded-sm bg-[#FAF9F5] ${aspectClass} ${className}`}>
+    <div className={`relative overflow-hidden w-full rounded-sm bg-transparent ${aspectClass} ${className}`}>
       {/* Real image tag that will resolve once dropped locally */}
       {!hasError && src ? (
         <img
@@ -26,7 +26,7 @@ export default function ProjectImage({ src, alt, aspectRatio = 'video', classNam
           alt={alt}
           referrerPolicy="no-referrer"
           onError={() => setHasError(true)}
-          className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-[1.01]"
+          className="absolute inset-0 w-full h-full object-contain transition-transform duration-700 hover:scale-[1.01]"
         />
       ) : (
         <div className="absolute inset-0 flex flex-col items-center justify-center p-8 bg-white text-center select-none">

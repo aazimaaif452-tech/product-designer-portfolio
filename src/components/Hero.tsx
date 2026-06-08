@@ -26,7 +26,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <p className="text-xs sm:text-sm lg:text-[14px] font-medium tracking-tight opacity-75 lg:whitespace-nowrap lg:overflow-visible">
+            <p className="text-lg lg:text-xl text-brand-black/70">
               I'm Aazim Aaif — a product designer crafting thoughtful digital experiences with clarity, structure, and purpose.
             </p>
           </motion.div>
@@ -51,7 +51,7 @@ export default function Hero() {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="max-w-xl md:max-w-2xl"
             >
-              <p className="text-base md:text-lg font-normal leading-relaxed tracking-tight text-brand-black/70">
+              <p className="text-xl lg:text-2xl leading-relaxed text-brand-black/70">
                 Designing products, systems, and workflows that connect users, operations, and business goals.
               </p>
             </motion.div>
