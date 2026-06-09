@@ -369,12 +369,13 @@ export default function IIMUdaipurCaseStudy() {
                   We identified and designed over 20 application states spanning admissions, interviews, offer management, document verification, and fee payments. By grouping these states into clear categories and surfacing the next required action, applicants could easily understand their current status and progress through the admissions journey with confidence.
                   
                 </p>
-
+                <div className="max-w-6xl mx-auto">
                 <ProjectImage 
                   src="/assets/iimu/iimu-status-board.jpg" 
                   alt="Application Status Board Display (Various Status Card Screens)" 
-                  aspectRatio="video"
+                  className="h-[400px] md:h-[750px]"
                 />
+                </div>
               </div>
             </section>
 

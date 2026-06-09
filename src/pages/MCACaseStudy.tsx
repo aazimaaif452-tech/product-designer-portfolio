@@ -228,16 +228,16 @@ export default function MCACaseStudy() {
                   alt="Stepper-based UI highlights representing step-by-step registration stages." 
                   aspectRatio="video"
                 />
-              <div className="grid md:grid-cols-2 gap-6 mt-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <ProjectImage
                 src="/assets/mca/mca-registration-1.png"
                 alt="Registration flow detail 1"
-                className="h-[650px]"
+                className="h-[400px] md:h-[650px]"
                 />
                 <ProjectImage
                 src="/assets/mca/mca-registration-2.png"
                 alt="Registration flow detail 2"
-                className="h-[650px]"
+                className="h-[400px] md:h-[650px]"
                 />
                 </div>
                 
@@ -250,16 +250,16 @@ export default function MCACaseStudy() {
                     The registration flow dynamically adjusted based on the player’s selected proficiency and role. Different question sets were shown for batsmen, bowlers, all-rounders, and wicketkeepers.
                   </p>
                 </div>
-                <div className="grid grid-cols-2 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <ProjectImage 
                     src="/assets/mca/mca-bowler.png" 
                     alt="Bowler specific dynamic eligibility forms" 
-                    className="h-[650px]"
+                    className="h-[400px] md:h-[650px]"
                   />
                   <ProjectImage 
                     src="/assets/mca/mca-batsman.png" 
                     alt="Batsman specific dynamic eligibility forms" 
-                    className="h-[650px]"
+                    className="h-[400px] md:h-[650px]"
                   />
                 </div>
               </div>
@@ -271,11 +271,11 @@ export default function MCACaseStudy() {
                     Instead of ending the process with a generic confirmation screen, the registration concluded with the player’s calculated auction base price.
                   </p>
                 </div>
+
                 <ProjectImage 
                   src="/assets/mca/mca-valuation.png" 
                   alt="Success Screen (Player Registration Base Price Calculation)" 
-                  className="h-[650px]"
-                  className="bg-transparent"
+                  aspectRatio="sixteen-nine"
                 />
               </div>
             </section>
