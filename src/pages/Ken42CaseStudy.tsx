@@ -295,11 +295,67 @@ export default function Ken42CaseStudy() {
                   ))}
                 </div>
               </div>
-              <ProjectImage 
-                src="/assets/alumni-responsive-layouts.jpg" 
-                alt="Responsive Constraints / Comparative Layouts - White-Label Scalability solutions." 
-                aspectRatio="video"
-              />
+              <div className="mt-16 pt-12 border-t border-brand-black/10">
+              <div className="grid md:grid-cols-2 gap-12">
+                 {/* Challenges */}
+                 <div>
+                  <h3 className="text-sm uppercase tracking-[0.2em] text-neutral-500 mb-6">
+                    Challenges
+                  </h3>
+                  <ul className="space-y-4 text-neutral-700">
+                     <li>
+                      Supporting multiple institutions from a single product while maintaining unique branding and identity.
+                     </li>
+
+                     <li>
+                      Working within Salesforce LWC implementation constraints and predefined platform capabilities.
+                     </li>
+
+                     <li>
+                      Ensuring a consistent user experience across institutions with varying requirements and workflows.
+                     </li>
+
+                     <li>
+                      Addressing mobile responsiveness limitations caused by restricted component behaviours.
+                     </li>
+                     </ul>
+                     </div>
+
+                      {/* Design Decisions */}
+                      <div>
+                        <h3 className="text-sm uppercase tracking-[0.2em] text-neutral-500 mb-6">
+                        Design Decisions
+                        </h3>
+
+                        <ul className="space-y-4 text-neutral-700">
+                           <li>Established reusable layout patterns and component structures to support white-label scalability.
+
+                           </li>
+
+                           <li>Created modular UX patterns that reduced design effort for onboarding new institutions.
+                           </li>
+
+                           <li>Balanced platform constraints with user needs to maintain consistency across desktop and mobile experiences.
+                           </li>
+                        </ul>
+
+                      </div>
+
+                      </div>
+                      
+                      {/* Outcome */}
+                      <div className="mt-12 pt-8 border-t border-neutral-200">
+                         <h3 className="text-sm uppercase tracking-[0.2em] text-neutral-500 mb-4">
+                          Outcome
+                         </h3>
+
+                         <p className="text-neutral-700 leading-relaxed max-w-4xl">
+                          The resulting system supported multiple institutions through a shared architecture while allowing each institution to maintain its own branding, content, and configuration. This approach improved scalability, reduced customization overhead, and enabled a more consistent experience across the ecosystem.
+                         </p>
+                      </div>
+
+                      </div>
+            
             </section>
 
             {/* 08 - Design QA */}
