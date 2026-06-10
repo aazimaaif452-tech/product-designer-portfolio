@@ -109,7 +109,7 @@ export default function Navbar() {
             </div>
             
             <a 
-              href="https://example.com/aazimaaif-resume" 
+              href="/resume/Aazim_Aaif_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden sm:inline-flex text-sm font-semibold border-b border-brand-black pb-0.5 hover:opacity-70 hover:border-brand-black/70 items-center gap-1 transition-all"
@@ -180,7 +180,7 @@ export default function Navbar() {
                 </div>
 
                 <a 
-                  href="https://example.com/aazimaaif-resume" 
+                  href="/resume/Aazim_Aaif_Resume.pdf" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm font-semibold border-b border-brand-black pb-0.5 hover:opacity-70 hover:border-brand-black/70 inline-flex items-center gap-1 transition-all mt-2"
